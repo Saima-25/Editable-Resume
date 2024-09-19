@@ -1,0 +1,56 @@
+<script src="editable.html"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .resume-section {
+            margin-bottom: 20px;
+        }
+        .resume-section h2 {
+            margin-top: 0;
+        }
+        .resume-section input, .resume-section textarea {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="resume-section">
+            <h2>Contact Information</h2>
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="tel" id="phone" placeholder="Phone">
+            <input type="text" id="address" placeholder="Address">
+        </div>
+        <div class="resume-section">
+            <h2>Summary</h2>
+            <textarea id="summary" placeholder="Summary"></textarea>
+        </div>
+        <div class="resume-section">
+            <h2>Education</h2>
+            <textarea id="education" placeholder="Education"></textarea>
+        </div>
+        <div class="resume-section">
+            <h2>Work Experience</h2>
+            <textarea id="workExperience" placeholder="Work Experience"></textarea>
+        </div>
+        <div class="resume-section">
+            <h2>Skills</h2>
+            <textarea id="skills" placeholder="Skills"></textarea>
+        </div>
+        <button onclick="saveResume()">Save Resume</button>
+    </div>
+</body>
+</html>
