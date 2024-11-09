@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  hr {
+    margin-bottom: 2rem;
+  }
+  
+  
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  @media (max-width: 600px) {
+    table {
+      width: 100%;
+    }
+  
+    td {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    label,
+    input {
+      width: 100%;
+    }
+  
+    input[type="radio"] {
+      width: auto;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
